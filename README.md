@@ -27,15 +27,18 @@ Time spent: **38** hours spent in total
   - [X] Steps to recreate: enter wordpress site as a viewer and paste this link in the comment box and post.
   - [X] Affected source code:
     - [Link 1](https://klikki.fi/adv/wordpress2.html)
-### 3. (Required) Vulnerability Name or ID
-  - [ ] Summary: 
-    - Vulnerability types:
-    - Tested in version:
-    - Fixed in version: 
-  - [ ] GIF Walkthrough: 
-  - [ ] Steps to recreate: 
-  - [ ] Affected source code:
-    - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
+### 3. (Required) Large File Upload Error XSS
+  - [X] Summary: 
+    - Vulnerability types: XSS
+    - Tested in version: 4.2
+    - Fixed in version: 4.2.15
+  - [X] GIF Walkthrough: <img src='https://github.com/chenkuanliao/codepath-wordpress/blob/main/EXP%203.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+  - [X] Steps to recreate: 
+    - Create a 20MB file called "Dinosaurs secret life<img src=x onerror=alert(1)>.png"
+    - Goto your wordpress site and drag and dropthe file via
+    - An error will appear with ... exceeds the maximum upload size for this site. along with a alert box to display that the payload has been executed.
+  - [X] Affected source code:
+    - [Link 1](https://hackerone.com/reports/203515)
 ### 4. (Optional) Vulnerability Name or ID
   - [ ] Summary: 
     - Vulnerability types:

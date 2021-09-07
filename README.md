@@ -11,7 +11,7 @@ Time spent: **38** hours spent in total
     - Vulnerability types: XSS
     - Tested in version: 4.2
     - Fixed in version: 4.7.3
-  - [X] GIF Walkthrough: 
+  - [X] GIF Walkthrough: <img src='https://github.com/chenkuanliao/codepath-wordpress/blob/main/EXP%201.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
   - [X] Steps to recreate: 
     - Upload an image.
     - Add "filename <noscript/><script>alert("Exploit Successful");</script>" in the description including quotes.

@@ -23,7 +23,7 @@ Time spent: **38** hours spent in total
     - Vulnerability types: XSS
     - Tested in version: 4.2
     - Fixed in version: 4.2.1
-  - [X] GIF Walkthrough: <img src='https://github.com/chenkuanliao/SimpleTweet2/blob/master/SimpleTweet%20part2.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+  - [X] GIF Walkthrough: <img src='https://github.com/chenkuanliao/codepath-wordpress/blob/main/EXP%202.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
   - [X] Steps to recreate: enter wordpress site as a viewer and paste this link in the comment box and post.
   - [ ] Affected source code:
     - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)

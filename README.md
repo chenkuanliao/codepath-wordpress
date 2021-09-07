@@ -18,13 +18,13 @@ Time spent: **38** hours spent in total
     - View attachment page and our alert box will pop up.
   - [ ] Affected source code:
     - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
-### 2. (Required) Vulnerability Name or ID
-  - [ ] Summary: 
-    - Vulnerability types:
-    - Tested in version:
-    - Fixed in version: 
-  - [ ] GIF Walkthrough: 
-  - [ ] Steps to recreate: 
+### 2. (Required) Unauthenticated Stored Cross-Site Scripting
+  - [X] Summary: 
+    - Vulnerability types: XSS
+    - Tested in version: 4.2
+    - Fixed in version: 4.2.1
+  - [X] GIF Walkthrough: <img src='https://github.com/chenkuanliao/SimpleTweet2/blob/master/SimpleTweet%20part2.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+  - [X] Steps to recreate: enter wordpress site as a viewer and paste this link in the comment box and post.
   - [ ] Affected source code:
     - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
 ### 3. (Required) Vulnerability Name or ID

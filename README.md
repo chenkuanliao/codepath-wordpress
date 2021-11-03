@@ -30,8 +30,8 @@ Time spent: **38** hours spent in total
 ### 3. (Required) Large File Upload Error XSS
   - [X] Summary: 
     - Vulnerability types: XSS
-    - Tested in version: 4.2
-    - Fixed in version: 4.2.15
+    - Tested in version: 4.7.2
+    - Fixed in version: 4.2.3
   - [X] GIF Walkthrough: <img src='https://github.com/chenkuanliao/codepath-wordpress/blob/main/EXP%203.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
   - [X] Steps to recreate: 
     - Create a 20MB file called "Dinosaurs secret life<img src=x onerror=alert(1)>.png"

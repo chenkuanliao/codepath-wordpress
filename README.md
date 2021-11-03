@@ -31,7 +31,7 @@ Time spent: **38** hours spent in total
   - [X] Summary: 
     - Vulnerability types: XSS
     - Tested in version: 4.7.2
-    - Fixed in version: 4.2.3
+    - Fixed in version: 4.7.13
   - [X] GIF Walkthrough: <img src='https://github.com/chenkuanliao/codepath-wordpress/blob/main/EXP%203.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
   - [X] Steps to recreate: 
     - Create a 20MB file called "Dinosaurs secret life<img src=x onerror=alert(1)>.png"
